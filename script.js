@@ -4,16 +4,15 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
-	get name(){
+	get personName(){
 		return this.name;
 	}
-	set age(val){
+	set personAge(val){
 		return this.age = val;
 	}
 }
 
 class Student extends Person {
-
 	study(){
 		console.log(`${this.name} is studying`);
 	}
